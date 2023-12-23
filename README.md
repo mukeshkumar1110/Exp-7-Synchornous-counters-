@@ -98,21 +98,23 @@ endmodule
 ````
 ## Output:
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### RTL Logic Up Counter and Down Counter:
+### Up Counter:
 ![292209407-daae41e1-7e3f-4f37-abdf-0f9d6f1e21ea](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/496bb623-d669-4a79-99e4-5341616678cc)
+### Down Counter:
 ![292209486-a6a771ed-4039-49f3-a335-4b0e7dc5409d](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/4f806ce8-8ad7-4e2b-a7f2-552e41d7b967)
 
 
 ### TIMING DIGRAMS FOR COUNTER  
-
+### Up Counter:
 ![292212113-3251ccc3-90a1-4c63-8e50-457e2efc574e](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/66671293-cfc2-4f8d-8fe3-ce8daed9eeeb)
-
+### Down Counter:
 ![292210864-bb49bf33-b767-49b7-8606-38380e0486a0](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/a9eb3ee3-1e47-4f8b-9abe-186fa4e7a088)
 
-
-
 ### TRUTH TABLE:
+### Up Counter:
 ![292232607-b94207e2-8bd7-46eb-adbd-9099c856823c](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/4c0d7e64-63b8-470f-a5fd-6fd98807cbee)
+### Down Counter:
 ![292233455-5de2a377-f527-4dd1-9bf5-4a3c1cd286bc](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/85fc4456-147c-483b-af07-c9fc684dc021)
 
 
