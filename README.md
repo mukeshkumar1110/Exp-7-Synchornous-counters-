@@ -97,6 +97,11 @@ end
 endmodule 
 ````
 ## Output:
+### Truth Table:
+#### Up Counter:
+![292232607-b94207e2-8bd7-46eb-adbd-9099c856823c](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/4c0d7e64-63b8-470f-a5fd-6fd98807cbee)
+#### Down Counter:
+![292233455-5de2a377-f527-4dd1-9bf5-4a3c1cd286bc](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/85fc4456-147c-483b-af07-c9fc684dc021)
 
 ### RTL logic for up and down counter:
 #### Up Counter:
@@ -111,11 +116,6 @@ endmodule
 #### Down Counter:
 ![292210864-bb49bf33-b767-49b7-8606-38380e0486a0](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/a9eb3ee3-1e47-4f8b-9abe-186fa4e7a088)
 
-### Truth Table:
-#### Up Counter:
-![292232607-b94207e2-8bd7-46eb-adbd-9099c856823c](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/4c0d7e64-63b8-470f-a5fd-6fd98807cbee)
-#### Down Counter:
-![292233455-5de2a377-f527-4dd1-9bf5-4a3c1cd286bc](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/85fc4456-147c-483b-af07-c9fc684dc021)
 
 
 
@@ -123,6 +123,6 @@ endmodule
 
 
 
-### Result:
+## Result:
 Thus synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
 
