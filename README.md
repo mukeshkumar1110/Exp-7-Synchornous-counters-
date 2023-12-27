@@ -72,29 +72,29 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 ## Program: 
 ### Up Counter:
 ````
-module uc(clk, A);
+module upcounter(clk,q1,q2,q3);
 input clk;
-output reg [2:0]A;
-always @(posedge clk)
+output reg q1,q2,q3;
+always@(posedge clk)
 begin
-A[2]=(((A[0])&(A[1]))^A[2]);
-A[1]=(A[0])^A[1];
-A[0]=A[0]^1;
+q3 = (q1&q2)^q3;
+q2 = q1^q2;
+q1 = 1^q1;
 end
 endmodule
 ````
 ### Down Counter:
 ````
-module dc(clk,A);
+module downcounter(clk,q1,q2,q3);
 input clk;
-output reg [2:0]A;
-always @(posedge clk)
+output reg q1,q2,q3;
+always@(posedge clk)
 begin
-A[2]=(((~A[0])&(~A[1]))^A[2]);
-A[1]=(~A[0])^A[1];
-A[0]=1^A[0];
+q3 = ((~q1)&(~q2))^q3;
+q2 = (~q1)^q2;
+q1 = 1^q1;
 end
-endmodule 
+endmodule
 ````
 ## Output:
 ### Truth Table:
@@ -105,16 +105,16 @@ endmodule
 
 ### RTL logic for up and down counter:
 #### Up Counter:
-![292209407-daae41e1-7e3f-4f37-abdf-0f9d6f1e21ea](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/496bb623-d669-4a79-99e4-5341616678cc)
+![upcounter](https://github.com/RoopakCS/Exp-7-Synchornous-counters-/assets/139228922/b9ae1e13-4049-4a47-a3d6-87c4d4987ac3)
 #### Down Counter:
-![292209486-a6a771ed-4039-49f3-a335-4b0e7dc5409d](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/4f806ce8-8ad7-4e2b-a7f2-552e41d7b967)
+![downcounter](https://github.com/RoopakCS/Exp-7-Synchornous-counters-/assets/139228922/4997a05f-96af-460c-809c-674ff3b09a93)
 
 
 ### Timing diagrams for up and down counter:  
 #### Up Counter:
-![292212113-3251ccc3-90a1-4c63-8e50-457e2efc574e](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/66671293-cfc2-4f8d-8fe3-ce8daed9eeeb)
+![WhatsApp Image 2023-12-27 at 14 02 12_13c00fad](https://github.com/RoopakCS/Exp-7-Synchornous-counters-/assets/139228922/e82482c1-b02c-486d-9364-12010173ea06)
 #### Down Counter:
-![292210864-bb49bf33-b767-49b7-8606-38380e0486a0](https://github.com/Hafeezuldeen/Exp-7-Synchornous-counters-/assets/144979314/a9eb3ee3-1e47-4f8b-9abe-186fa4e7a088)
+![WhatsApp Image 2023-12-27 at 14 04 54_104af7c7](https://github.com/RoopakCS/Exp-7-Synchornous-counters-/assets/139228922/9c716603-67f0-48f7-88ab-27d5a7c9707e)
 
 
 
