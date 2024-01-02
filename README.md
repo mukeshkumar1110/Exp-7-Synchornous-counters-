@@ -1,5 +1,5 @@
-# Developed by: Roopak C S
-# Register Number: 212223220088 
+# Developed by: Mukesh Kumar S
+# Register Number: 212223240099
 # EXP-6 Synchornous-counters - up counter and down counter 
 ## Aim: 
 To implement 4 bit up and down counters and validate  functionality.
